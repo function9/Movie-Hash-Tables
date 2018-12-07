@@ -31,7 +31,7 @@ class App3{
         System.out.println("\nOK HashTable created, maxSize is "+htab.getMaxSize());
 	System.out.println("it  found "+htab.getCol()+" collisions"+" with "+htab.getMaxProbe()+" maximum probe length");
 	
-	if (htab.getMaxSize()<=100) { // save the hashtable if small enough
+	if (htab.getMaxSize()<=3100000) { // save the hashtable if small enough
 	    htab.saveHashTable(filename+"-hash");
 	    System.out.println("HashTable save in file '"+filename+"-hash'");
         }
