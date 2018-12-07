@@ -1,0 +1,13 @@
+class Movie{
+
+    // Common private variables 
+	
+    // Constructor: construct the Movie class with the 3 given parameters 
+   
+    /////////////////////////////////////////////////////////
+    // methods 
+    /////////////////////////////////////////////////////////
+   
+   
+
+}
